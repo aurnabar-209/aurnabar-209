@@ -1,0 +1,55 @@
+<svg viewBox="0 0 490 226" xmlns="http://www.w3.org/2000/svg">
+
+    <style>
+      .card-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+      .titlebar { fill: #30363d; }
+      .title-text {
+        font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+        font-size: 13px; fill: #8b949e;
+      }
+      .key {
+        font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+        font-size: 14px; font-weight: bold; fill: #39d353;
+      }
+      .value {
+        font-family: 'SFMono-Regular', Consolas, Menlo, monospace;
+        font-size: 14px; fill: #c9d1d9;
+      }
+      
+      .row {
+        opacity: 0;
+        transform: translateX(-12px);
+        animation: rowIn 0.5s ease-out forwards;
+      }
+      @keyframes rowIn {
+        to { opacity: 1; transform: translateX(0); }
+      }
+    
+    </style>
+    
+  <rect class="card-bg" x="0.5" y="0.5" width="489" height="225" rx="8"/>
+  <path class="titlebar" d="M0.5,8 a8,8 0 0 1 8,-8 h473 a8,8 0 0 1 8,8 v26 h-489 z"/>
+  
+    <circle cx="20" cy="17" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="17" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="17" r="6" fill="#27c93f"/>
+    
+  <text x="245.0" y="22" class="title-text" text-anchor="middle">aurnabar-209@github</text>
+  
+    <g class="row" style="animation-delay:0.0s">
+      <text x="24" y="70" class="key">Now</text>
+      <text x="24" y="88" class="value">Building things &amp; shipping code</text>
+    </g>
+    <g class="row" style="animation-delay:0.18s">
+      <text x="24" y="104" class="key">Prev</text>
+      <text x="24" y="122" class="value">Add your previous role / focus here</text>
+    </g>
+    <g class="row" style="animation-delay:0.36s">
+      <text x="24" y="138" class="key">Stack</text>
+      <text x="24" y="156" class="value">Python . JavaScript . SQL . ...</text>
+    </g>
+    <g class="row" style="animation-delay:0.54s">
+      <text x="24" y="172" class="key">Highlights</text>
+      <text x="24" y="190" class="value">Add a stat or achievement here</text>
+    </g>
+</svg>
